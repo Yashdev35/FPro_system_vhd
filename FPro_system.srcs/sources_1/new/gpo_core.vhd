@@ -21,7 +21,7 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
+use work.test_package.all;
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --use IEEE.NUMERIC_STD.ALL;
@@ -44,6 +44,7 @@ wr_data : in std_logic_vector(31 downto 0);
 rd_data : out std_logic_vector(31 downto 0)
 );
 end gpo_core;
+
 architecture Behavioral of gpo_core is
 signal buffer_reg : std_logic_vector(w-1 downto 0);
 signal wr_en : std_logic;
