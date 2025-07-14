@@ -45,9 +45,11 @@ end fifo;
 architecture arch of fifo is
 signal rd_addr, wr_addr : std_logic_vector(ADDR_W -1 downto 0);
 signal full_reg, empty_reg : std_logic;
+signal wr_data_reg, rd_data_reg : std_logic_vector(DATA_W-1 downto 0);
 signal wr_en : std_logic;
 begin
 
+wr_data_reg <= wr_data;
 --component imports
 --ctrl unit
 ctrl_unit : entity work.fifo_ctrl
@@ -75,10 +77,15 @@ rst => rst,
 wr_en => wr_en,
 rd_addr => rd_addr,
 wr_addr => wr_addr,
-wr_data => wr_data,
-rd_data => rd_data
+wr_data => wr_data_reg,
+rd_data => rd_data_reg
 );
 
 -- wr_en logic 
 wr_en <= wr and (not full_reg);
+
+--output assign
+rd_data <= rd_data_reg;
+empty <= empty_reg;
+full <= full_reg;
 end arch;
