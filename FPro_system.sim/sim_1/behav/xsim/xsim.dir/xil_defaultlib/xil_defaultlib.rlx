@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sim_1/new/tb_uart.vhd,1753111379,vhdl,,,,uart_tb,,,,,,,,
+D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sources_1/new/baud_rate_generator.vhd,1752622286,vhdl,D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sources_1/new/uart.vhd,,,baud_gen,,,,,,,,
+D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sources_1/new/fifo.vhd,1752504763,vhdl,D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sources_1/new/uart.vhd,,,fifo,,,,,,,,
+D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sources_1/new/fifo_controller.vhd,1752504635,vhdl,D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sources_1/new/fifo.vhd,,,fifo_ctrl,,,,,,,,
+D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sources_1/new/reg_file.vhd,1752502710,vhdl,D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sources_1/new/fifo.vhd,,,reg_file,,,,,,,,
+D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sources_1/new/uart.vhd,1753111398,vhdl,,,,uart,,,,,,,,
+D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sources_1/new/uart_reciver.vhd,1753101474,vhdl,D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sources_1/new/uart.vhd,,,uart_rx,,,,,,,,
+D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sources_1/new/uart_tx.vhd,1753105296,vhdl,D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sources_1/new/uart.vhd,,,uart_tx,,,,,,,,

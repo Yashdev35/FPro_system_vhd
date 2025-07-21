@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FPro_system.srcs/sources_1/new/baud_rate_generator.vhd" \
+"../../../../FPro_system.srcs/sources_1/new/fifo_controller.vhd" \
+"../../../../FPro_system.srcs/sources_1/new/reg_file.vhd" \
+"../../../../FPro_system.srcs/sources_1/new/fifo.vhd" \
+"../../../../FPro_system.srcs/sources_1/new/uart_reciver.vhd" \
+"../../../../FPro_system.srcs/sources_1/new/uart_tx.vhd" \
+"../../../../FPro_system.srcs/sources_1/new/uart.vhd" \
+"../../../../FPro_system.srcs/sim_1/new/tb_uart.vhd" \
+
+# Do not sort compile order
+nosort

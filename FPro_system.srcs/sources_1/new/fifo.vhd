@@ -88,4 +88,5 @@ wr_en <= wr and (not full_reg);
 rd_data <= rd_data_reg;
 empty <= empty_reg;
 full <= full_reg;
+
 end arch;

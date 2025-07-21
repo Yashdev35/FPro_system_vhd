@@ -1,0 +1,16 @@
+Time resolution is 1 ps
+Note: Starting TX Test: Writing '01110000' to TX FIFO...
+Time: 210 ns  Iteration: 0  Process: /uart_tb/stim_proc  File: D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sim_1/new/tb_uart.vhd
+Note: TX Test Finished. Check the 'tx' signal in the waveform.
+Time: 101980 ns  Iteration: 0  Process: /uart_tb/stim_proc  File: D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sim_1/new/tb_uart.vhd
+Note: Starting RX Test: Sending '01110000' to RX pin...
+Time: 102080 ns  Iteration: 0  Process: /uart_tb/stim_proc  File: D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sim_1/new/tb_uart.vhd
+Note: Finished sending data to RX pin.
+Time: 186880 ns  Iteration: 0  Process: /uart_tb/stim_proc  File: D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sim_1/new/tb_uart.vhd
+Note: Reading from RX FIFO...
+Time: 186980 ns  Iteration: 0  Process: /uart_tb/stim_proc  File: D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sim_1/new/tb_uart.vhd
+Note: RX Test Finished. Check 'r_data' in the waveform.
+Time: 187090 ns  Iteration: 0  Process: /uart_tb/stim_proc  File: D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sim_1/new/tb_uart.vhd
+Failure: Simulation finished.
+Time: 187090 ns  Iteration: 0  Process: /uart_tb/stim_proc  File: D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sim_1/new/tb_uart.vhd
+$finish called at time : 187090 ns : File "D:/coding/vivado_codes/FPro_system/FPro_system.srcs/sim_1/new/tb_uart.vhd" Line 189
