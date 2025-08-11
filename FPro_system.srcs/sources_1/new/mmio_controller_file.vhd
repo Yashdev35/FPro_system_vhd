@@ -30,7 +30,7 @@ use work.chu_io_map.all;
 entity mmio_controller is
 port(
 --Bus 
-bus_addr : in std_logic_vector(23 downto 0);
+bus_addr : in std_logic_vector(20 downto 0);
 bus_read :in std_logic;
 bus_write : in std_logic;
 bus_cs : in std_logic;

@@ -1,7 +1,7 @@
 Vivado Simulator v2024.2.0
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot uart_tb_behav xil_defaultlib.uart_tb -log elaborate.log 
+Running: D:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_mmio_sys_vanilla_behav xil_defaultlib.tb_mmio_sys_vanilla -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -12,12 +12,20 @@ Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.chu_io_map
+Compiling package xil_defaultlib.test_package
+Compiling architecture main of entity xil_defaultlib.mmio_controller [mmio_controller_default]
+Compiling architecture main of entity xil_defaultlib.timer_core [timer_core_default]
 Compiling architecture arch of entity xil_defaultlib.baud_gen [baud_gen_default]
 Compiling architecture arch of entity xil_defaultlib.uart_rx [uart_rx_default]
 Compiling architecture arch of entity xil_defaultlib.uart_tx [uart_tx_default]
-Compiling architecture arch of entity xil_defaultlib.fifo_ctrl [fifo_ctrl_default]
-Compiling architecture arch of entity xil_defaultlib.reg_file [\reg_file(addr_wid=4)\]
-Compiling architecture arch of entity xil_defaultlib.fifo [\fifo(addr_w=4)\]
-Compiling architecture arch of entity xil_defaultlib.uart [uart_default]
-Compiling architecture behavior of entity xil_defaultlib.uart_tb
-Built simulation snapshot uart_tb_behav
+Compiling architecture arch of entity xil_defaultlib.fifo_ctrl [\fifo_ctrl(addr_w=8)\]
+Compiling architecture arch of entity xil_defaultlib.reg_file [\reg_file(addr_wid=8)\]
+Compiling architecture arch of entity xil_defaultlib.fifo [\fifo(addr_w=8)\]
+Compiling architecture arch of entity xil_defaultlib.uart [\uart(fifo_w=8)\]
+Compiling architecture arch of entity xil_defaultlib.uart_core [uart_core_default]
+Compiling architecture arch of entity xil_defaultlib.gpo_core [\gpo_core(w=16)\]
+Compiling architecture arch of entity xil_defaultlib.gpi_core [\gpi_core(w=16)\]
+Compiling architecture arch of entity xil_defaultlib.mmio_sys_vanilla [mmio_sys_vanilla_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_mmio_sys_vanilla
+Built simulation snapshot tb_mmio_sys_vanilla_behav

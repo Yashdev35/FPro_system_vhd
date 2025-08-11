@@ -45,7 +45,7 @@ wr_data : in std_logic_vector(31 downto 0);
 rd_data : out std_logic_vector(31 downto 0)
 );
 end gpi_core;
-architecture Behavioral of gpi_core is
+architecture arch of gpi_core is
 signal buffer_reg : std_logic_vector(W-1 downto 0);
 signal wr_en : std_logic;
 begin
@@ -63,4 +63,4 @@ sync : process(rst,clk)
 rd_data(w-1 downto 0) <= buffer_reg;
 rd_data(31 downto w) <= (others => '0');
 
-end Behavioral;
+end arch;

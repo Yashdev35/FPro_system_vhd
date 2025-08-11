@@ -45,7 +45,7 @@ rd_data : out std_logic_vector(31 downto 0)
 );
 end gpo_core;
 
-architecture Behavioral of gpo_core is
+architecture arch of gpo_core is
 signal buffer_reg : std_logic_vector(w-1 downto 0);
 signal wr_en : std_logic;
 begin
@@ -67,4 +67,4 @@ wr_en <= '1' when (cs = '1' and write ='1') else
 rd_data <= (others => '0');--not used
 --output assign
 d_out <= buffer_reg;
-end Behavioral;
+end arch;
